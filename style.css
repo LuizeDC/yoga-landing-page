@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap");
+
+.head-img {
+  width: 100%;
+  height: 300px;
+  background: url("https://images.pexels.com/photos/736856/pexels-photo-736856.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  box-shadow: 0px 0px 5px rgb(134, 134, 134);
+}
+
+.container {
+  display: block;
+  text-align: center;
+}
+
+h1 {
+  font-size: 150px;
+  font-family: "Libre Baskerville", serif;
+  text-align: left;
+  color: #a65cc9;
+  padding: 10px 0.5px 0.5px 1px;
+  margin: 0px 0px 0px 100px;
+  text-shadow: 3px 3px 8px rgb(82, 72, 84);
+}
+
+h2 {
+  display: flex;
+  font-family: "Comfortaa", cursive;
+  font-size: 100;
+  text-align: left;
+  color: rgba(255, 235, 254, 0.938);
+  margin: 0px 0px 0px 125px;
+  text-shadow: 2px 2px 4px rgb(210, 106, 236);
+}
+h3 {
+  color: #b87bd4;
+  font-family: "Libre Baskerville", serif;
+  text-shadow: 2px 2px 4px rgb(184, 145, 194);
+  display: block;
+  text-align: center;
+  font-size: 40px;
+  margin: 50px 0px 20px 0px;
+}
+h4 {
+  color: #b87bd4;
+  font-family: "Libre Baskerville", serif;
+  text-shadow: 2px 2px 4px rgb(184, 145, 194);
+  display: block;
+  text-align: center;
+  margin: 50px 0px 20px 0px;
+  font-size: 40px;
+}
+
+h5 {
+  color: rgb(215, 148, 247);
+  font-family: "Libre Baskerville", serif;
+  text-shadow: 1px 1px 1px rgb(143, 135, 145);
+  font-size: 25 px;
+  display: block;
+  margin: 30px 0 0 0;
+  text-align: center;
+}
+
+.yoga-picture {
+  margin: 50px 0 0 0;
+  padding: 4px;
+  border: gray;
+  border-radius: 0%;
+  box-shadow: 0px 0px 10px rgb(237, 210, 242);
+}
+
+p {
+  font-family: "Spartan", sans-serif;
+  line-height: 1.5;
+  font-size: 15px;
+  color: rgb(83, 78, 82);
+}
+
+.primaryParagraph {
+  margin: 0 0px 0 0;
+  text-align: center;
+}
+
+.secondaryParagraph {
+  text-align: center;
+}
+
+hr {
+  margin: -2px 15px;
+}
+
+button {
+  box-shadow: 2px 2px 3px rgba(192, 192, 192, 0.7);
+  display: block;
+  margin: 0 auto;
+  background-color: rgb(215, 148, 247);
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  padding: 20px;
+  border: none;
+  border-radius: 1px;
+  text-shadow: 2px 2px 4px rgb(210, 106, 236);
+  transition: all 800ms ease-in-out;
+}
+button:hover {
+  border: #a65cc9;
+  box-shadow: 2px 2px 4px rgb(176, 139, 186);
+  color: #a65cc9;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.9;
+  cursor: pointer;
+}
+a {
+  text-decoration: underline;
+  text-align: center;
+  color: rgb(177, 177, 177);
+  font-family: "Spartan", sans-serif;
+  text-shadow: 1px 1px 1px rgb(127, 106, 129);
+  padding: 20px;
+}
+a:hover {
+  color: rgb(245, 189, 250);
+  transition: all 400ms ease-in-out;
+  opacity: 0.9;
+  text-decoration: underline;
+}
+
+.More-yoga {
+  color: #b87bd4;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  text-shadow: 2px 2px 4px rgb(210, 106, 236);
+  text-align: center;
+}
+.read-more {
+  color: #b87bd4;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  text-shadow: 2px 2px 6px rgb(184, 145, 194);
+  text-decoration: underline;
+  display: block;
+  text-align: center;
+}
+
+.contactIcons {
+  color: rgb(159, 146, 160);
+  text-align: center;
+  font-size: 30px;
+}
+
+.Contact-me {
+  font-family: "Spartan", sans-serif;
+  color: rgb(159, 146, 160);
+  text-align: center;
+  font-size: 11px;
+}
+.email {
+  color: rgb(239, 171, 245);
+}
+
+.insta {
+  color: rgb(239, 171, 245);
+  margin: 0px auto;
+  padding: 0px 40px 0px 0px;
+  text-decoration: none;
+}
